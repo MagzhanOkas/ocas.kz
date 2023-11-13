@@ -1,0 +1,23 @@
+.header_nav {
+    position: relative;
+    height: 40px;
+}
+.header_lists {
+    position: absolute;
+    width: 100%;
+    border: .5px solid #ffffff;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    border-top: none;
+    padding: 15px 15px;
+    background: rgba(111, 227, 227, 0.47);
+    box-shadow: -18px 20px 14px 0px #ababab;
+    display: flex;
+    justify-content: space-around;
+    top: -65px;
+    transition: 0.7s;
+}
+
+.header_nav:hover .header_lists {
+    top: 0;
+}
