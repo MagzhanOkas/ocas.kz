@@ -1,0 +1,40 @@
+.main {
+    width: 100%;
+    height: 100%;
+    background: rgba(183, 238, 223, 0.47);
+}
+.main_content {
+    padding: 110px 0 395px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.main_block-left {
+    width: 55%;
+}
+.main_block-right {
+    width: 45%;
+}
+.main_title {
+    font-size: 40px;
+    font-weight: 100;
+    color: #333333;
+}
+.main_text {
+    margin-top: 40px;
+    font-size: 45px;
+    font-weight: 500;
+}
+.work_btn {
+    padding: 12px 22px;
+    margin-top: 40px;
+    background: rgb(14, 115, 239);
+    border-radius: 28px;
+    max-width: 180px;
+    width: 100%;
+    mix-blend-mode: multiply;
+    color: #ffffff;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

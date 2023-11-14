@@ -1,9 +1,10 @@
 .header {
     width: 100%;
-    padding: 20px 50px;
+    padding: 90px 50px;
+    background: rgba(183, 238, 223, 0.47);
 }
 .header_nav {
-    width: 100%;
+    width: 80%;
 }
 .header_lists {
     display: flex;
@@ -12,18 +13,16 @@
     justify-content: space-around;
 }
 .header_logo {
-    flex-basis: 200px;
+    flex-basis: 40%;
 }
-.main {
-    width: 100%;
-    height: 100%;
-}
-.main_content {
-    padding: 70px 0;
-    display: flex;
-    flex-wrap: wrap;
-}
-.main_block {
-   flex-grow: 1;
+.header_list-link {
+    font-size: 22px;
+    padding: 14px 20px;
+    border: 1px solid transparent;
+    border-radius: 28px;
+    transition: 0.4s;
 }
 
+.header_list-link:hover {
+    border: 1px solid rgb(33, 189, 203);
+}
