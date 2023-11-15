@@ -1,0 +1,51 @@
+.services {
+    padding: 100px 0;
+}
+.services_title {
+    font-size: 25px;
+    letter-spacing: 6px;
+    text-shadow: 11px -14px 3px #b3b3b3, 0 0 1em #ababab;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+}
+.servives_skills {
+    margin-top: 70px;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3,minmax(150px, 450px));
+    justify-content: center;
+}
+.service_scill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    transition: 0.3s;
+    padding: 45px;
+}
+.service_scill-img {
+    max-width: 100px;
+    width: 100%;
+}
+.service_scill-title {
+    margin-top: 40px;
+    transition: 0.3s;
+    color: #333333;
+}
+.service_scill-text {
+    margin-top: 40px;
+    transition: 0.3s;
+    color: #333333;
+}
+.service_scill:hover {
+    background: #0a82de;
+}
+
+.service_scill:hover  .service_scill-title  {
+    color: white;
+}
+.service_scill:hover .service_scill-text {
+    color: white;
+}
