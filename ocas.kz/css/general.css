@@ -49,3 +49,9 @@
 .service_scill:hover .service_scill-text {
     color: white;
 }
+
+
+.portfolio {
+    width: 100%;
+    background: #b8b8b8;
+}
