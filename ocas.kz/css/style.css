@@ -1,15 +1,15 @@
-@import "header.css";
-@import "main.css";
-@import "general.css";
-
 *:before,
 *:after,
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Inter', sans-serif;;
 }
+
+ a, p, li, h1, h2, h3, h4, h5, h6, pre, div {
+    font-family: 'Inter', sans-serif;
+}
+
 
 a {
     text-decoration: none;
