@@ -9,16 +9,33 @@
     justify-content: center;
 }
 .social_icons {
+    max-width: 200px;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 .social_link {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
 }
 .social_icon {
     width: 100%;
     height: 100%;
-    font-size: 40px;
+    font-size: 50px;
+}
+
+#social-ig,
+#social-wp,
+#social-tg {
+   color: rgb(30, 48, 80);
+    transition: 0.5s;
+}
+#social-ig:hover {
+    color: rgb(224, 16, 81);
+}
+#social-wp:hover {
+    color: rgb(42, 144, 14);
+}
+#social-tg:hover {
+    color: rgb(21, 97, 234);
 }
