@@ -111,16 +111,4 @@
     margin-top: 45px;
 }
 
-.footer {
-    width: 100%;
-}
-.footer_content {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-.social-media {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
+
