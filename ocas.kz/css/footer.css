@@ -1,5 +1,5 @@
 .footer {
-    background: #ababab;
+    background: rgb(45, 45, 45);
     width: 100%;
     padding: 100px 0 ;
 }
@@ -17,25 +17,40 @@
 .social_link {
     width: 50px;
     height: 50px;
+    font-size: 2.5rem;
 }
 .social_icon {
     width: 100%;
     height: 100%;
     font-size: 50px;
 }
-
+.social_icon:before {
+    font-size: 2.5rem;
+}
+#social-ig {
+    text-shadow:  18px -30px 4px rgba(224, 16, 81, 0.71), 12px -11px 3em #ababab;
+}
+#social-wp {
+    text-shadow:  18px -30px 4px rgba(42, 144, 14, 0.71), 12px -11px 3em #ababab;
+}
+#social-tg {
+    text-shadow:  18px -30px 4px rgba(21, 97, 234, 0.66), 12px -11px 3em #ababab;
+}
 #social-ig,
 #social-wp,
 #social-tg {
-   color: rgb(30, 48, 80);
     transition: 0.5s;
+    color: white;
 }
 #social-ig:hover {
     color: rgb(224, 16, 81);
+    text-shadow:  18px -30px 4px #b3b3b3,  0 0 1em #f32f5c;
 }
 #social-wp:hover {
     color: rgb(42, 144, 14);
+    text-shadow:  18px -30px 4px #b3b3b3,  0 0 1em #51f16b;
 }
 #social-tg:hover {
     color: rgb(21, 97, 234);
+    text-shadow:  18px -30px 4px #b3b3b3, 0 0 1em #5288ef;
 }
