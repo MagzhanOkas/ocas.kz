@@ -8,6 +8,6 @@
     <title>Блог</title>
 </head>
 <body>
-Стати
+Статьи
 </body>
 </html>

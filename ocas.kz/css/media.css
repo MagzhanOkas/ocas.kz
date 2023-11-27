@@ -7,7 +7,27 @@
         font-size: 14px;
     }
 }
-@media only screen and (max-width : 1024px) {}
+@media only screen and (max-width : 1024px) {
+    .header{
+        padding: 90px 0;
+    }
+    .header_nav {
+        display: none;
+    }
+    .navbar {
+        display: block;
+    }
+    .main_content {
+        padding-bottom: 110px;
+    }
+    .main_block {
+        width: 100%;
+        align-items: center;
+    }
+    .main_block-right {
+        margin-top: 45px;
+    }
+}
 
 @media only screen and (max-width : 800px)  {
     *:before,
@@ -27,8 +47,20 @@
     * {
         font-size: 10px;
     }
+    .servives_skills {
+        grid-template-columns: 1fr;
+    }
+    .portfolio_cards {
+        grid-template-columns: 1fr;
+    }
 }
 
-@media only screen and (max-width : 360px)  {}
+@media only screen and (max-width : 360px)  {
+    *:before,
+    *:after,
+    * {
+        font-size: 6px;
+    }
+}
 
 @media only screen and (max-width : 320px)  {}
